@@ -1,5 +1,5 @@
 /*Page Styles*/
-.footer{
+footer{
 	text-align:center;
 }
 h1, h2, h3, h4, h5, h6{
@@ -32,18 +32,19 @@ h2 + p {
 }
 /*ID Selectors*/
 #container{
-	-moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
-	-webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
-	box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+	border-radius:1em;
+	-moz-box-shadow: .1em .2em .3em rgba(0,0,0,.5);
+	-webkit-box-shadow: .1em .2em .3em rgba(0,0,0,.5);
+	box-shadow: .1em .2em .3em rgba(0,0,0,.5);
 	width: 100%;
 	max-width: 1080px;
-	margin: 36px auto;
-	padding: 10px;
+	margin: 3em auto;
+	padding: 1em;
 	background-color: #FFF;
 }
 #reasons {
 
-  padding: 36px;
+  padding: 3em;
 
   -webkit-column-gap: 2em;
   -webkit-column-rule: thin dotted #999;
@@ -61,8 +62,8 @@ h2 + p {
 }
 #testimony {
 	background-color: #ccc;
-	padding: 10px;
-	border-radius: 8px;
+	padding: .9em;
+	border-radius: .8em;
 }
 #testimony p:nth-child(2n-1){
 	font-style: italic;
@@ -70,7 +71,7 @@ h2 + p {
 #testimony p:nth-child(2n){
 	font-weight: bold;
 	font-variant: small-caps;
-	border-bottom-width: 1px;
+	border-bottom-width: .1em;
 	border-bottom-style: groove;
 	border-bottom-color: #000;
 }
@@ -80,7 +81,7 @@ h2 + p {
 	#container{
 		width:90%;
 		position:relative;
-		left:0px;
+		left:0em;
 	}
 }
 @media only screen and (min-width: 800px)/*Main Selectors*/ {
@@ -112,17 +113,17 @@ h2 + p {
 	}
 	nav ul > li{
 	  display: table-cell;
-	  padding: 10px;
-	  margin: 10px;
+	  padding: .9em;
+	  margin: .9em;
 	  background-color: red;
 	  text-align: center;
 		font-size:1.4em;
 	}
 	nav ul li:first-of-type{
-	  border-radius: 8px 0px 0px 8px;
+	  border-radius: .9em 0em 0em .9em;
 	}
 	nav ul li:last-of-type{
-	  border-radius: 0px 8px 8px 0px;
+	  border-radius: 0em .9em .9em 0em;
 	}
 	img[alt="Logo"]{
 	  width: 5em;
@@ -175,10 +176,10 @@ h2 + p {
 		font-size:1em;
 	}
 	nav ul li:first-of-type{
-	  border-radius: 8px 0px 0px 8px;
+	  border-radius: .9em 0em 0em .9em;
 	}
 	nav ul li:last-of-type{
-	  border-radius: 0px 8px 8px 0px;
+	  border-radius: 0em .9em .9em 0em;
 	}
 	img[alt="Logo"]{
 	  width: 5em;
@@ -214,17 +215,17 @@ h2 + p {
 		width:15em;
 		margin: 0 auto;
 		z-index:999999;
-		padding: 20px 20px;
+		padding: 2em;
 }
 	nav ul > li{
 		list-style-type:none;
-		padding: 10px;
+		padding: .9em;
 		background-color: red;
 		text-align: center;
 		font-size:.8em;
 	}
-	nav ul li:first-of-type{border-radius: 8px 8px 0px 0px;}
-	nav ul li:last-of-type{border-radius: 0px 0px 8px 8px;}
+	nav ul li:first-of-type{border-radius: .9em .9em 0em 0em;}
+	nav ul li:last-of-type{border-radius: 0em 0em .9em .9em;}
 
 	header h1{display:none;}
 	header{width:100%;}
