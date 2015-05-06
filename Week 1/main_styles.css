@@ -97,7 +97,7 @@ h2 + p {
 	  text-decoration: underline;
 	  color: #ccc;
 	}
-	nav ul li a:hover{
+	nav ul li:hover{
 	  background-color: firebrick;
 	}
 	nav{
@@ -109,17 +109,16 @@ h2 + p {
 	}
 	nav ul > li{
 	  display: table-cell;
-	}
-		nav ul > li > a{
 	  padding: 10px;
+	  margin: 10px;
 	  background-color: red;
 	  text-align: center;
 		font-size:1.4em;
 	}
-	.first{
+	nav ul li:first-of-type{
 	  border-radius: 8px 0px 0px 8px;
 	}
-	.last{
+	nav ul li:last-of-type{
 	  border-radius: 0px 8px 8px 0px;
 	}
 	img[alt="Logo"]{
