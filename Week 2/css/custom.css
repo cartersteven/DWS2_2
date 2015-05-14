@@ -1,0 +1,85 @@
+/* this is a custom CSS Stylesheet */
+body{
+	padding: 10px;
+	padding-top: 20px;
+	background-attachment: scroll;
+  background:#ddd;
+	/*background-image: url(../img/wood_6.png);*/
+	background-repeat: repeat;
+}
+.headerphoto{
+  align:center;
+  max-width:100%;
+  max-height:5em;
+}
+.userProfile{text-align:center;}
+.8col{width:12.5%;}
+.btnsearch{
+	background-image: url(../img/search_sm.png);
+	background-repeat: no-repeat;
+	background-position: -0.2em;
+}
+.btnuser{
+	background-image: url(../img/user_sm.png);
+	background-repeat: no-repeat;
+	background-position: -0.2em;
+}
+.margin{margin:10px;}
+.testcolor{background:#ccc;}
+.center{text-align:center;}
+.inline{display: inline-block;}
+.submitbtn{
+  float:right;
+  width:5em;
+  }
+.inptwd{width:20em;}
+.imgfull{width:100%;}
+.alrt{text-align:right;}
+.member{
+  border-radius:1em;
+  background:#120f69;
+}
+.panels{
+	padding: 10px;
+	border-radius: 1em;
+  background:#aaa;
+}
+#supertubosimage{
+  border-radius:1em;
+  margin:1em;
+  padding:1em;
+}
+.rbord{border-right:1px solid #000;}
+.btn-primary {
+  color: #fff;
+  background-color: #120f69;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #337ab7;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #fff;
+  background-color: #337ab7;
+}
+.list-group-item.active > .badge,
+.nav-pills > .active > a > .badge {
+  color: #fff;
+  background-color: #120f69;
+}
+.nav > li > a{
+  background-color: #120f69;
+  color: #fff;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #337ab7;
+}
