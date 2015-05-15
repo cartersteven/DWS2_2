@@ -3,7 +3,7 @@ body{
 	padding: 10px;
 	padding-top: 20px;
 	background-attachment: scroll;
-  background:#ddd;
+  background:#f2d98c;
 	/*background-image: url(../img/wood_6.png);*/
 	background-repeat: repeat;
 }
@@ -25,7 +25,7 @@ body{
 	background-position: -0.2em;
 }
 .margin{margin:10px;}
-.testcolor{background:#ccc;}
+.testcolor{background:#4e7cd9;}
 .center{text-align:center;}
 .inline{display: inline-block;}
 .submitbtn{
@@ -37,12 +37,12 @@ body{
 .alrt{text-align:right;}
 .member{
   border-radius:1em;
-  background:#120f69;
+  background:#4e7cd9;
 }
 .panels{
 	padding: 10px;
 	border-radius: 1em;
-  background:#aaa;
+  background:#4e7cd9;
 }
 #supertubosimage{
   border-radius:1em;
@@ -52,7 +52,7 @@ body{
 .rbord{border-right:1px solid #000;}
 .btn-primary {
   color: #fff;
-  background-color: #120f69;
+  background-color: #4e7cd9;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -61,25 +61,25 @@ body{
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #fff;
-  background-color: #337ab7;
+  background-color: #223d8c;
 }
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #fff;
-  background-color: #337ab7;
+  background-color: #223d8c;
 }
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
   color: #fff;
-  background-color: #120f69;
+  background-color: #4e7cd9;
 }
 .nav > li > a{
-  background-color: #120f69;
+  background-color: #4e7cd9;
   color: #fff;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #337ab7;
+  background-color: #233d8c;
 }
