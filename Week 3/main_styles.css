@@ -15,6 +15,7 @@ body{
 }
 nav{
   margin: auto;
+  display: table;
 }
 
 h2 + p {
@@ -100,38 +101,29 @@ h2 + p {
 	  text-decoration: underline;
 	  color: #ccc;
 	}
-	nav ul li a:hover{
+	nav ul li:hover{
 	  background-color: firebrick;
-		padding: .9em;
-		border-radius: .9em;
 	}
 	nav{
-	  margin: 3em auto;
+	  margin: auto;
+	  display: table;
 	}
 	nav > ul{
-		list-style-type: none;
-		margin: auto;
-		padding: 0;
-	}
-	nav ul li a{
-			height: .9em;
-			padding: .9em;
+	  display:table-row;
 	}
 	nav ul > li{
-	  display: inline;
-		padding: .9em;
-	  margin: .9em 0;
+	  display: table-cell;
+	  padding: .9em;
+	  margin: .9em;
 	  background-color: red;
 	  text-align: center;
 		font-size:1.4em;
 	}
 	nav ul li:first-of-type{
 	  border-radius: .9em 0em 0em .9em;
-		padding: .9em 0;
 	}
 	nav ul li:last-of-type{
 	  border-radius: 0em .9em .9em 0em;
-		padding:.9em 0;
 	}
 	img[alt="Logo"]{
 	  width: 5em;
