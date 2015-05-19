@@ -103,18 +103,17 @@ h2 + p {
 	nav ul li a:hover{
 	  background-color: firebrick;
 		border-radius: .9em;
-		padding: .9em;
 	}
 	nav{
 	  margin: auto;
 	}
 	nav > ul{
 		list-style-type: none;
-		margin: 0;
+		margin: auto;
 		padding: 0;
 	}
 	nav ul li a{
-			padding: .9em;
+			height: .9em;
 	}
 	nav ul > li{
 	  display: inline;
