@@ -15,7 +15,6 @@ body{
 }
 nav{
   margin: auto;
-  display: table;
 }
 
 h2 + p {
@@ -101,20 +100,23 @@ h2 + p {
 	  text-decoration: underline;
 	  color: #ccc;
 	}
-	nav ul li:hover{
+	nav ul li a:hover{
 	  background-color: firebrick;
 	}
 	nav{
 	  margin: auto;
-	  display: table;
 	}
 	nav > ul{
-	  display:table-row;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		}
+	nav ul >li a{
+		 padding: .9em;
 	}
 	nav ul > li{
-	  display: table-cell;
-	  padding: .9em;
-	  margin: .9em;
+	  display: inline;
+	  margin: .9em 0;
 	  background-color: red;
 	  text-align: center;
 		font-size:1.4em;
