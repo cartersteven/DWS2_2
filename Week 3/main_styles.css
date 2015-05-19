@@ -102,6 +102,8 @@ h2 + p {
 	}
 	nav ul li a:hover{
 	  background-color: firebrick;
+		border-radius: .9em;
+		padding: .9em;
 	}
 	nav{
 	  margin: auto;
@@ -111,9 +113,9 @@ h2 + p {
 		margin: 0;
 		padding: 0;
 		}
-	nav ul >li a{
-		 padding: .9em;
-	}
+		nav ul li a{
+			padding: .9em;
+		}
 	nav ul > li{
 	  display: inline;
 	  margin: .9em 0;
