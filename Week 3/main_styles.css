@@ -112,10 +112,10 @@ h2 + p {
 		list-style-type: none;
 		margin: 0;
 		padding: 0;
-		}
-		nav ul li a{
+	}
+	nav ul li a{
 			padding: .9em;
-		}
+	}
 	nav ul > li{
 	  display: inline;
 	  margin: .9em 0;
