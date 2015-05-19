@@ -160,7 +160,7 @@ h2 + p {
 	  text-decoration: underline;
 	  color: #ccc;
 	}
-	nav ul li:hover{
+	nav ul li a:hover{
 	  background-color: firebrick;
 	}
 	nav{
@@ -169,6 +169,9 @@ h2 + p {
 	}
 	nav > ul{
 	  display:table-row;
+	}
+	nav ul li a{
+		padding: 10px;
 	}
 	nav ul > li{
 	  display: table-cell;
@@ -213,13 +216,16 @@ h2 + p {
 		text-decoration: underline;
 		color: #ccc;
 	}
-	nav ul li:hover{background-color: firebrick;}
+	nav ul li a:hover{background-color: firebrick;}
 	nav{
 		width:15em;
 		margin: 0 auto;
 		z-index:999999;
 		padding: 2em;
-}
+	}
+	nav ul li a{
+		padding: .9em;
+	}
 	nav ul > li{
 		list-style-type:none;
 		padding: .9em;
