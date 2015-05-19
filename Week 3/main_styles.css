@@ -106,7 +106,7 @@ h2 + p {
 		border-radius: .9em;
 	}
 	nav{
-	  margin: auto;
+	  margin: 3em auto;
 	}
 	nav > ul{
 		list-style-type: none;
