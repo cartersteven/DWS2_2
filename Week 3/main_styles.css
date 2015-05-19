@@ -1,0 +1,238 @@
+/*Page Styles*/
+footer{
+	text-align:center;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Lobster', cursive;
+}
+p, li, a{
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	background-image: url(image/2.png);
+	background-repeat: repeat;
+}
+nav{
+  margin: auto;
+  display: table;
+}
+
+h2 + p {
+  font-size: 1.1em;
+  font-style: italic;
+}
+/*Class Selectors*/
+.fluid-image{
+  margin:auto;
+	width: 10em;
+}
+.fluid-image img{
+  max-width: 100%;
+}
+/*ID Selectors*/
+#container{
+	border-radius:1em;
+	-moz-box-shadow: .1em .2em .3em rgba(0,0,0,.5);
+	-webkit-box-shadow: .1em .2em .3em rgba(0,0,0,.5);
+	box-shadow: .1em .2em .3em rgba(0,0,0,.5);
+	width: 100%;
+	max-width: 1080px;
+	margin: 3em auto;
+	padding: 1em;
+	background-color: #ddd;
+}
+#reasons {
+
+  padding: 3em;
+
+  -webkit-column-gap: 2em;
+  -webkit-column-rule: thin dotted #999;
+  -webkit-column-width: 20em;
+
+  -moz-column-gap: 2em;
+  -moz-column-rule: thin dotted #999;
+  -moz-column-width: 20em;
+
+  column-gap: 2em;
+  column-rule: thin dotted #999;
+  column-width: 20em;
+
+  word-wrap: break-word;
+}
+#testimony {
+	background-color: #ccc;
+	padding: .9em;
+	border-radius: .8em;
+}
+#testimony p:nth-child(2n-1){
+	font-style: italic;
+}
+#testimony p:nth-child(2n){
+	font-weight: bold;
+	font-variant: small-caps;
+	border-bottom-width: .1em;
+	border-bottom-style: groove;
+	border-bottom-color: #000;
+}
+
+/*Desktop Styles*/
+@media only screen and (min-width: 800px) and (max-width:1200px){
+	#container{
+		width:90%;
+		position:relative;
+		left:0em;
+	}
+}
+@media only screen and (min-width: 800px)/*Main Selectors*/ {
+	nav a:link{
+	  text-decoration: none;
+	  color: #000;
+	}
+	nav a:visited{
+	  text-decoration: none;
+	  color: #000;
+	}
+	nav a:hover{
+	  text-decoration: underline;
+	  color: #ccc;
+	}
+	nav a:active{
+	  text-decoration: underline;
+	  color: #ccc;
+	}
+	nav ul li:hover{
+	  background-color: firebrick;
+	}
+	nav{
+	  margin: auto;
+	  display: table;
+	}
+	nav > ul{
+	  display:table-row;
+	}
+	nav ul > li{
+	  display: table-cell;
+	  padding: .9em;
+	  margin: .9em;
+	  background-color: red;
+	  text-align: center;
+		font-size:1.4em;
+	}
+	nav ul li:first-of-type{
+	  border-radius: .9em 0em 0em .9em;
+	}
+	nav ul li:last-of-type{
+	  border-radius: 0em .9em .9em 0em;
+	}
+	img[alt="Logo"]{
+	  width: 5em;
+	  float: left;
+	}
+	img + h1{
+	  padding-top: .9em;
+	}
+
+}
+/*Tablet Styles*/
+@media screen and (min-width:480px) and (max-width:799px) {
+	#container{
+		clear: none;
+		height: 100%;
+		width: 95%;
+	}
+	nav a:link{
+	  text-decoration: none;
+	  color: #000;
+	}
+	nav a:visited{
+	  text-decoration: none;
+	  color: #000;
+	}
+	nav a:hover{
+	  text-decoration: underline;
+	  color: #ccc;
+	}
+	nav a:active{
+	  text-decoration: underline;
+	  color: #ccc;
+	}
+	nav ul li:hover{
+	  background-color: firebrick;
+	}
+	nav{
+	  margin: auto;
+	  display: table;
+	}
+	nav > ul{
+	  display:table-row;
+	}
+	nav ul > li{
+	  display: table-cell;
+	  padding: 10px;
+	  margin: 10px;
+	  background-color: red;
+	  text-align: center;
+		font-size:1em;
+	}
+	nav ul li:first-of-type{
+	  border-radius: .9em 0em 0em .9em;
+	}
+	nav ul li:last-of-type{
+	  border-radius: 0em .9em .9em 0em;
+	}
+	img[alt="Logo"]{
+	  width: 5em;
+	  float: left;
+	}
+}
+/*Phne Styles*/
+@media screen and (max-width:479px) {
+
+	#container{
+		clear: none;
+		height: 100%;
+		width: 90%;
+	}
+	nav a:link{
+		text-decoration: none;
+		color: #000;
+	}
+	nav a:visited{
+		text-decoration: none;
+		color: #000;
+	}
+	nav a:hover{
+		text-decoration: underline;
+		color: #ccc;
+	}
+	nav a:active{
+		text-decoration: underline;
+		color: #ccc;
+	}
+	nav ul li:hover{background-color: firebrick;}
+	nav{
+		width:15em;
+		margin: 0 auto;
+		z-index:999999;
+		padding: 2em;
+}
+	nav ul > li{
+		list-style-type:none;
+		padding: .9em;
+		background-color: red;
+		text-align: center;
+		font-size:.8em;
+	}
+	nav ul li:first-of-type{border-radius: .9em .9em 0em 0em;}
+	nav ul li:last-of-type{border-radius: 0em 0em .9em .9em;}
+
+	header h1{display:none;}
+	header{width:100%;}
+	#logo{
+	  width: 5em;
+		display:block;
+		margin:auto;
+	}
+
+}
