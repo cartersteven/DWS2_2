@@ -1,7 +1,4 @@
 /*Page Styles*/
-.center{
-	text-align: center;
-}
 footer{
 	text-align:center;
 }
@@ -82,10 +79,6 @@ h2 + p {
 	border-bottom-color: #000;
 }
 
-/*Form Styling*/
-#tooltip{
-	height:1em;
-}
 /*Desktop Styles*/
 @media only screen and (min-width: 800px) and (max-width:1200px){
 	#container{
@@ -149,10 +142,6 @@ h2 + p {
 	img + h1{
 	  padding-top: .9em;
 	}
-	#order_form{
-		padding: 0 2em;
-	}
-
 
 }
 /*Tablet Styles*/
