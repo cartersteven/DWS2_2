@@ -83,9 +83,7 @@ h2 + p {
 }
 
 /*Form Styling*/
-#tooltip{
-	height:1em;
-}
+
 /*Desktop Styles*/
 @media only screen and (min-width: 800px) and (max-width:1200px){
 	#container{
@@ -150,7 +148,7 @@ h2 + p {
 	  padding-top: .9em;
 	}
 	#order_form{
-		padding: 0 2em;
+		padding: 0 4em;
 	}
 
 
