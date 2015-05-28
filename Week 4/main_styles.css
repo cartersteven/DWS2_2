@@ -21,7 +21,7 @@ nav{
   display: table;
 }
 
-h2 + p {
+#reasons>h2 + p {
   font-size: 1.1em;
   font-style: italic;
 }
@@ -62,9 +62,6 @@ h2 + p {
   column-width: 20em;
 
   word-wrap: break-word;
-}
-#order{
-
 }
 #testimony {
 	background-color: #ccc;
@@ -205,8 +202,6 @@ input:invalid{
 	#order_form{
 		padding: 0 4em;
 	}
-
-
 }
 /*Tablet Styles*/
 @media screen and (min-width:480px) and (max-width:799px) {
