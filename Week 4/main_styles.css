@@ -103,7 +103,7 @@ input:focus{
 	color:blue;
 }
 textarea{
-	font-family: 'Roboto', sans-serif; 
+	font-family: 'Roboto', sans-serif;
 	padding: .4em;
 	border-radius: .4em;
 	border: 1px black solid;
@@ -140,7 +140,14 @@ input:invalid{
 }
 @media only screen and (min-width: 800px)/*Main Selectors*/ {
 	/*Desktop Form*/
-
+		#field1{
+			width:48%;
+			float:left;
+		}
+		#field2{
+			width:48%;
+			float:left;
+		}
 	nav a:link{
 	  text-decoration: none;
 	  color: #000;
