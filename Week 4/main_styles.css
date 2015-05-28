@@ -88,6 +88,7 @@ h2 + p {
 	width:100%
 }
 input{
+	font-family: 'Roboto', sans-serif;
 	padding: .4em;
 	border-radius: .4em;
 	border: 1px black solid;
@@ -102,6 +103,7 @@ input:focus{
 	color:blue;
 }
 textarea{
+	font-family: 'Roboto', sans-serif; 
 	padding: .4em;
 	border-radius: .4em;
 	border: 1px black solid;
