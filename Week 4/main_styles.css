@@ -2,6 +2,10 @@
 .center{
 	text-align: center;
 }
+.asideimage{
+	width:20em;
+	border-radius: 10em;
+}
 #footerright{text-align:right;}
 #footerleft{float:left;}
 #footerleft img{border-radius: .8em;}
