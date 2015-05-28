@@ -2,9 +2,9 @@
 .center{
 	text-align: center;
 }
-footer{
-	text-align:center;
-}
+#footerright{text-align:right;}
+#footerleft{float:left;}
+#footerleft img{padding-bottom: .5em;}
 h1, h2, h3, h4, h5, h6{
 	font-family: 'Lobster', cursive;
 }
@@ -94,7 +94,7 @@ h2 + p {
 }
 @media only screen and (min-width: 800px)/*Main Selectors*/ {
 	/*Desktop Form*/
-		
+
 	nav a:link{
 	  text-decoration: none;
 	  color: #000;
