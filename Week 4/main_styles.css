@@ -93,6 +93,8 @@ h2 + p {
 	}
 }
 @media only screen and (min-width: 800px)/*Main Selectors*/ {
+	/*Desktop Form*/
+		
 	nav a:link{
 	  text-decoration: none;
 	  color: #000;
