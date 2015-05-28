@@ -52,7 +52,7 @@
                     <legend>Contact Info</legend>
                     <p>
                       <label for="first_name" >First Name</label>
-                      <input type="text" name="first_name" id="first_name" required autofocus>
+                      <input type="text" name="first_name" id="first_name" required autofocus pattern="([a-zA-Z]{3,30}\s*)">
                     </p>
                     <p>
                       <label for="last_name">Last Name</label>
@@ -60,11 +60,11 @@
                     </p>
                     <p>Phone Number
                       (
-                      <input name="area_code" type="text" id="area_code" size="3" required placeholder="XXX">
+                      <input name="area_code" type="text" id="area_code" size="3" required placeholder="123" pattern="[0-9]{3}">
                       )
-                      <input name="prefix" type="text" id="prefix" size="3" required placeholder="XXX">
+                      <input name="prefix" type="text" id="prefix" size="3" required placeholder="123" pattern="[0-9]{3}">
                       -
-  <input name="suffix" type="text" id="suffix" size="4" required placeholder="XXXX">
+  									<input name="suffix" type="text" id="suffix" size="4" required placeholder="1234" pattern="[0-9]{4}">
                     </p>
                     <p>
                       <label for="email">Email Address</label>

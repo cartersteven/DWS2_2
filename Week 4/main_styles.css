@@ -83,14 +83,26 @@ h2 + p {
 }
 
 /*Form Styling*/
-#first_name{
-	border: 1px black dotted;
-	-webkit-transition: border .2s; /* Safari */
-	transition: border .2s;
-
+input{
+	border: 1px black solid;
+	-webkit-transition: border .5s; /* Safari */
+	transition: border .5s;
+	-webkit-transition: color .5s; /* Safari */
+	transition: color .5s;
 }
-#first_name:focus{
-	border: 2px pink solid;
+input:focus{
+	outline:none;
+	border: 1px blue solid;
+	color:blue;
+}
+
+input:focus:invalid {
+  background: url('../image/cross.svg') no-repeat right;
+  padding-right: 3px;
+}
+input:focus:valid {
+  background: url('../image/tick.svg') no-repeat right;
+  padding-right: 3px;
 }
 /*Desktop Styles*/
 @media only screen and (min-width: 800px) and (max-width:1200px){
