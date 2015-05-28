@@ -13,7 +13,17 @@
 
 		<meta name="viewport" content="width=device-width; initial-scale=1.0">
 
+		<script src="js/jquery.js"></script>
 
+		<script src="js-webshim/minified/polyfiller.js"></script>
+
+		<script>
+			// load and implement all unsupported features
+			webshims.polyfill();
+
+			// or only load a specific feature
+			//webshims.polyfill('forms es5');
+		</script>
 		<link href="main_styles.css" rel="stylesheet" type="text/css">
 	</head>
 

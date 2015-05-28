@@ -4,7 +4,7 @@
 }
 #footerright{text-align:right;}
 #footerleft{float:left;}
-#footerleft img{padding-bottom: .5em;}
+#footerleft img{border-radius: .8em;}
 h1, h2, h3, h4, h5, h6{
 	font-family: 'Lobster', cursive;
 }
@@ -83,7 +83,15 @@ h2 + p {
 }
 
 /*Form Styling*/
+#first_name{
+	border: 1px black dotted;
+	-webkit-transition: border .2s; /* Safari */
+	transition: border .2s;
 
+}
+#first_name:focus{
+	border: 2px pink solid;
+}
 /*Desktop Styles*/
 @media only screen and (min-width: 800px) and (max-width:1200px){
 	#container{

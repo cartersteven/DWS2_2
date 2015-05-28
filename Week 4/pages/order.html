@@ -48,11 +48,11 @@
 			<div id="order_div">
             	<h1 class="center">Get a Quote</h1>
 				<form action="" method="get" enctype="multipart/form-data" name="order" id="order_form" autofocus>
-                  <fieldset>
+                  <fieldset id="field1">
                     <legend>Contact Info</legend>
                     <p>
                       <label for="first_name" >First Name</label>
-                      <input type="text" name="first_name" id="first_name" required>
+                      <input type="text" name="first_name" id="first_name" required autofocus>
                     </p>
                     <p>
                       <label for="last_name">Last Name</label>
@@ -60,18 +60,18 @@
                     </p>
                     <p>Phone Number
                       (
-                      <input name="area_code" type="text" id="area_code" size="3" required>
+                      <input name="area_code" type="text" id="area_code" size="3" required placeholder="XXX">
                       )
-                      <input name="prefix" type="text" id="prefix" size="3" required>
+                      <input name="prefix" type="text" id="prefix" size="3" required placeholder="XXX">
                       -
-  <input name="suffix" type="text" id="suffix" size="4" required>
+  <input name="suffix" type="text" id="suffix" size="4" required placeholder="XXXX">
                     </p>
                     <p>
                       <label for="email">Email Address</label>
-                      <input type="email" name="email" id="email">
+                      <input type="email" name="email" id="email" placeholder="myaddress@mail.com">
                     </p>
                   </fieldset>
-                  <fieldset>
+                  <fieldset id="field2">
                     <legend>Domain and Hosting</legend>
                     <p>Have you already purchased a domain?
                       <input type="checkbox" name="domain" id="domain">
@@ -79,7 +79,7 @@
                     </p>
                     <p>
                       <label for="domain_name">If so, what is the domain called?</label>
-                      <input name="domain_name" type="url" id="domain_name" value="http://">
+                      <input name="domain_name" type="url" id="domain_name" placeholder="http://www.mysite.com">
                     </p>
                     <p>Will you be needing hosting?
   <input type="checkbox" name="domain2" id="domain2">
@@ -104,7 +104,7 @@
                         10000+ Visitors / Month</label>
                     </p>
                   </fieldset>
-                  <fieldset>
+                  <fieldset id="field3">
                     <legend>Features</legend>
                     <p>What features do you want on this website?</p>
                     <p>
