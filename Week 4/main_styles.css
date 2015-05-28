@@ -3,8 +3,9 @@
 	text-align: center;
 }
 .asideimage{
-	width:20em;
+	max-width:20em;
 	border-radius: 10em;
+	float: right;
 }
 #footerright{text-align:right;}
 #footerleft{float:left;}
