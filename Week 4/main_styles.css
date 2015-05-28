@@ -83,6 +83,10 @@ h2 + p {
 }
 
 /*Form Styling*/
+#type{
+	max-width: 50em;
+	width:100%
+}
 input{
 	padding: .4em;
 	border-radius: .4em;
