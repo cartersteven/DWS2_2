@@ -84,6 +84,8 @@ h2 + p {
 
 /*Form Styling*/
 input{
+	padding: .4em;
+	border-radius: .4em;
 	border: 1px black solid;
 	-webkit-transition: border .5s; /* Safari */
 	transition: border .5s;
@@ -95,14 +97,32 @@ input:focus{
 	border: 1px blue solid;
 	color:blue;
 }
-
+textarea{
+	padding: .4em;
+	border-radius: .4em;
+	border: 1px black solid;
+	-webkit-transition: border .5s; /* Safari */
+	transition: border .5s;
+	-webkit-transition: color .5s; /* Safari */
+	transition: color .5s;
+}
+textarea:focus{
+	outline:none;
+	border: 1px blue solid;
+	color:blue;
+}
 input:focus:invalid {
-  background: url('../image/cross.svg') no-repeat right;
+  background: url('../image/cross.png') no-repeat right;
+	background-color: #ddffdd;
   padding-right: 3px;
 }
 input:focus:valid {
   background: url('../image/tick.svg') no-repeat right;
+	background-color: #ffdddd;
   padding-right: 3px;
+}
+input:invalid{
+	background-color: #ffdddd;
 }
 /*Desktop Styles*/
 @media only screen and (min-width: 800px) and (max-width:1200px){
