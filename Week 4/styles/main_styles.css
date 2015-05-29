@@ -128,6 +128,7 @@ input:invalid{
 	margin-right: auto;
 	width:100%;
 	max-width:720px;
+	border-radius: 1em;
 }
 #type{
 	max-width: 50em;
