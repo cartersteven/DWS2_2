@@ -1,4 +1,13 @@
 /*Page Styles*/
+a:link{
+	text-decoration: none;
+	color:red
+	}
+
+a:visited, a:hover, a:active{
+	text-decoration: underline;
+	color:firebrick
+}
 .center{
 	text-align: center;
 }
@@ -6,19 +15,33 @@
 	max-width:20em;
 	border-radius: 10em;
 	float: right;
-	-webkit-transition: border .5s; /* Safari */
-	transition: border .5s;
+	-webkit-transition: border .3s; /* Safari */
+	transition: border .3s;
+	border: .3em rgba(0, 0, 0, 0.0) solid;
 }
 .imgrt:hover{
 	max-width:20em;
 	border-radius: 10em;
 	float: right;
-	border: .1em black groove;
+	border: .3em rgba(255, 0, 0, 1) solid;
+	-webkit-transition: border .3s; /* Safari */
+	transition: border .3s;
 }
 .imglt{
 	max-width:20em;
 	border-radius: 10em;
 	float: left;
+	-webkit-transition: border .3s; /* Safari */
+	transition: border .3s;
+	border: .3em rgba(0, 0, 0, 0.0) solid;
+}
+.imglt:hover{
+	max-width:20em;
+	border-radius: 10em;
+	float: left;
+	border: .3em rgba(255, 0, 0, 1) solid;
+	-webkit-transition: border .3s; /* Safari */
+	transition: border .3s;
 }
 #footerright{text-align:right;}
 #footerleft{float:left;}
