@@ -113,7 +113,8 @@ input:invalid{
 .tableimage{
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+		height: 1em;
 }
 /*Global ID's*/
 #type{
