@@ -2,10 +2,23 @@
 .center{
 	text-align: center;
 }
-.asideimage{
+.imgrt{
 	max-width:20em;
 	border-radius: 10em;
 	float: right;
+	-webkit-transition: border .5s; /* Safari */
+	transition: border .5s;
+}
+.imgrt:hover{
+	max-width:20em;
+	border-radius: 10em;
+	float: right;
+	border: .1em black groove;
+}
+.imglt{
+	max-width:20em;
+	border-radius: 10em;
+	float: left;
 }
 #footerright{text-align:right;}
 #footerleft{float:left;}
