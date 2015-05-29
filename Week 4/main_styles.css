@@ -110,6 +110,11 @@ input:invalid{
 .fluid-image img{
   max-width: 100%;
 }
+.tableimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
 /*Global ID's*/
 #type{
 	max-width: 50em;
