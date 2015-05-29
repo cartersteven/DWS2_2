@@ -55,12 +55,17 @@ textarea:focus{
 }
 input:focus:invalid {
   background: url('../image/cross.png') no-repeat right;
-	background-color: #ddffdd;
+	background-color: #ffdddd;
   padding-right: 3px;
 }
 input:focus:valid {
   background: url('../image/tick.svg') no-repeat right;
-	background-color: #ffdddd;
+	background-color: #ddffdd;
+  padding-right: 3px;
+}
+input:valid {
+  background: url('../image/tick.svg') no-repeat right;
+	background-color: #ddffdd;
   padding-right: 3px;
 }
 input:invalid{
