@@ -16,7 +16,7 @@ p, li, a{
 }
 
 body{
-	background-image: url(image/2.png);
+	background-image: url(../image/2.png);
 	background-repeat: repeat;
 }
 nav{
